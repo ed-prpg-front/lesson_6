@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson_6</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="logo">Texterra</div>
+      <ul class="menu">
+         <li><a href="#">МЫ</a></li>
+         <li><a href="#">УСЛУГИ</a></li>
+         <li><a href="#">ПОРТФОЛИО</a></li>
+         <li><a href="#">КЛИЕНТЫ</a></li>
+         <li><a href="#">БЛОГ</a></li>
+         <li><a href="#">КОНТАКТЫ</a></li>
+         <li><a href="#">А здесь убрал фантом отступ с помощью FZ:0 РОДИТЕЛЮ</a></li>
+      </ul>
+      <div class="button"><a href="#">кнопкА с Бордер-радиусом </a></div>
+   </header>
+   <main class="main">
+      <div class="first">
+         <h1 class="first__title">9 ошибок в верстке статьи, из-за которых вы теряете читателей
+            <span class="first__titlespan">
+               Блок встает по центру из-за margin 0 auto и текст встает по центру из text-align:center, ну и бордер
+               сделал с точками
+            </span>
+         </h1>
+      </div>
+      <div class="second">
+         <h2 class="second__title">Выравнивание <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+               laboriosam corporis ipsum enim dolorum consectetur rerum iure nihil facere.</span>правого края</h2>
+         <p class="second__text">Текст с ровным правым краем выглядит хорошо. Но выровнять его непросто. Слова имеют
+            разную длину, поэтому сделать правый край ровным можно либо вручную с помощью переносов, либо автоматически,
+            выровняв его по ширине. Ни один из этих способов не подойдет для верстки веб-страницы.</p>
+         <span class="second__sectext">Проблема ручного выравнивания в размере мониторов: на разных устройствах текст
+            будет <span>А так будет выглядеть СТРОЧНЫЙ ТЭГ</span>
+            отображаться по-разному, и все переносы «поедут». Выравнивание текста по ширине тоже не решает проблему.
+            Этот способ выравнивает правый край за счет разной длины пробелов между словами. В итоге текст выглядит
+            уродливо, усложняет чтение и выдает некачественную верстку.</span>
+         <div class="second__newtext">
+            <div class="second__test">
+               <span>А здесь есть border, но ОН TRANSPARENT</span>
+               В блоге медиахаба «Rockin'Robin» делают правый край текста ровным с помощью
+               автоматического выравнивания по ширине. Из-за этого между словами образуются дыры: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, aut quidem. Veniam ad delectus doloribus optio dolor fugit laboriosam repudiandae. Molestias laboriosam, praesentium sequi blanditiis est numquam fugit facere recusandae?
+            </div>
+         </div>
+         <div class="article">
+            <img src="img/justphoto.png" alt="photo" class="second__img">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium natus aliquam
+            assumenda odit, ex tenetur necessitatibus, fuga, enim dolores provident delectus nam! Earum iure ea, alias
+            impedit pariatur maiores rerum.
+            <span class="article__span">
+               А здесь сделал float:left, а еще пустой div засунул <br>
+               Если мы используем box-sizing, то свойство border толкает текст внутрь
+            </span>
+            <div class="art"></div>
+         </div>
+         <div class="second__note">Читайте также:<span> <a href="https://texterra.ru/blog/10-elementov-bez-kotorykh-ne-mozhet-oboytis-ni-odin-khoroshiy-blog.html">10 элементов, без которых не может обойтись ни один хороший
+            блог</a></span>
+         </div>
+      </div>
+      <div class="third">
+         <div class="third__new">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo? outline или border?
+         </div>
+         <div class="third__exp">
+            <img src="img/maxresdefault.jpg" alt="cool img" class="third__img">
+            <div class="third__container">
+               <div class="third__forimg">Задал dispay: block,чтобы применить margin:0 auto и отрицательным марджином подвинул весь текст </div>
+            </div>
+            <div class="newimage">
+         </div>
+            <img src="img/simpson.png" alt="simpson" class="third__newimage">
+         </div>
+      </div>
+   </main>
+</body>
+
+</html>

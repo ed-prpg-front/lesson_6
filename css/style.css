@@ -1,0 +1,272 @@
+@font-face {
+   font-family: "a_LCDNova";
+   src: url("../fonts/a_LCDNova.woff2") format("woff2"), url("../fonts/a_LCDNova.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "TT Norms";
+   src: url("../fonts/TTNorms-Bold.woff2") format("woff2"), url("../fonts/TTNorms-Bold.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "TT Norms";
+   src: url("../fonts/TTNorms-Regular.woff2") format("woff2"), url("../fonts/TTNorms-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "TT Norms";
+   src: url("../fonts/TTNorms-BoldItalic.woff2") format("woff2"), url("../fonts/TTNorms-BoldItalic.woff") format("woff");
+   font-weight: bold;
+   font-style: italic;
+   font-display: swap;
+}
+@font-face {
+   font-family: "FuturaBookCTT";
+   src: url("../fonts/FuturaBookC.woff2") format("woff2"), url("../fonts/FuturaBookC.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+body {
+   font-size: 16px;
+   font-family: "TT Norms";
+   color: #000;
+}
+.menu,
+.logo,
+.button {
+   display: inline-block;
+}
+/*  */
+.menu li {
+   display: inline-block;
+   font-size: 14px;
+}
+.header {
+   background-color: #000;
+}
+.logo {
+   color: white;
+   font-weight: bold;
+   font-size: 40px;
+   margin: 30px 40px 30px 90px;
+}
+.menu {
+   font-size: 0;
+   color: white;
+}
+.button {
+   color: white;
+   background-color: tomato;
+   padding: 10px;
+   border-radius: 50%;
+   box-shadow: 5px 5px 8px yellow;
+   text-transform: uppercase;
+   max-width: 140px;
+   text-align: center;
+   line-height: 15px;
+   font-size: 12px;
+   font-weight: bold;
+}
+.first__title {
+   max-width: 760px;
+   background-color: yellow;
+   margin: 0 auto; /* Блок встает по центру */
+   text-align: center;
+   box-shadow: -8px 10px 2px #000;
+   margin-top: -20px;
+   padding: 30px;
+   border: 15px dotted rosybrown;
+   border-radius: 20px 50% 40px 50%;
+}
+.menu li a {
+   margin-right: 7px;
+   color: #fff;
+   line-height: 155%;
+}
+.first__titlespan {
+   font-weight: 700;
+   font-size: 34px;
+   text-shadow: 2px 2px 2px #000, 2px 2px 4px red;
+}
+.second__title {
+   font-family: "TTNorms-BoldItalic";
+   font-weight: 700;
+   font-style: italic;
+   font-size: 45px;
+   margin: 20px 40px 0 auto;
+   max-width: 700px;
+   background-color: royalblue;
+   padding: 20px 30px 40px 30px;
+   border: 20px dashed #000;
+   box-shadow: 4px 4px 4px rosybrown;
+   border-radius: 30% 70% 180px 30%;
+   overflow: hidden;
+}
+.article {
+   max-width: 900px;
+   margin: 0 auto;
+   background-color: rosybrown;
+   padding: 15px;
+   font-size: 15px;
+   line-height: 200%;
+   border: 4px solid red;
+   border-radius: 20px;
+}
+.second__img {
+   max-width: 450px;
+   float: left;
+   padding: 15px;
+}
+.article__span {
+   font-size: 40px;
+   font-weight: 700;
+}
+.art {
+   clear: both;
+}
+.second__text {
+   max-width: 800px;
+   margin: 80px auto 40px;
+   background-color: salmon;
+   font-family: "a_LCDNova";
+   font-size: 44px;
+   font-weight: 700;
+   line-height: 200%;
+   text-align: center;
+   text-shadow: -4px -4px 4px azure, 10px 10px 10px rebeccapurple;
+   border-radius: 50%;
+   overflow: auto;
+}
+.second__sectext {
+   background-color: forestgreen;
+   font-family: "FuturaBookCTT";
+   font-size: 33px;
+   margin: 10px;
+   line-height: 200%;
+}
+.second__sectext span {
+   font-weight: bold;
+   font-size: 46px;
+   color: #000;
+   text-shadow: 2px 2px 2px firebrick;
+}
+.second__newtext {
+   background-color: coral;
+   max-width: 750px;
+   margin: 40px auto;
+   border: 20px transparent #000;
+   font-family: "FuturaBookCTT";
+   font-size: 36px;
+   font-weight: 500;
+   box-shadow: -5px 6px 7px violet, -5px 6px 22px rgb(19, 15, 59), 6px -10px 20px rgb(46, 28, 46);
+   text-align: center;
+   overflow: hidden;
+}
+.second__test {
+   overflow: auto;
+   height: 300px;
+   padding: 20px 70px;
+   margin: 40px -30px 40px 40px;
+}
+.second__newtext span {
+   font-family: "a_LCDNova";
+   font-size: 40px;
+}
+.second__note {
+   margin: 20px 0px 20px 80px;
+   border-bottom: 5px solid red;
+   border-left: 2px solid rosybrown;
+   max-width: 900px;
+}
+.second__note span {
+   text-decoration: underline;
+   color: red;
+}
+.third__new {
+   max-width: 700px;
+   margin: 70px auto 40px;
+   background-color: sienna;
+   font-size: 36px;
+   font-weight: bold;
+   font-style: italic;
+   outline: 40px solid rgba(87, 87, 17, 0.377);
+   text-shadow: 4px -4px 4px #000;
+   color: thistle;
+   border-radius: 30%;
+   overflow: auto;
+   border-right: 17px solid green;
+   box-shadow: inset 5px 5px 100px rgba(4, 92, 41, 0.658);
+   text-align: center;
+}
+.third__img {
+   display: block;
+   max-width: 800px;
+   margin: 90px auto 0px;
+}
+.third__forimg {
+   font-family: "TTNorms-BoldItalic";
+   font-size: 22px;
+   font-weight: 700;
+   color: rgba(28, 27, 82, 0.466);
+   text-transform: uppercase;
+   text-align: center;
+   margin: -300px 0px 300px 0px;
+}
+.third__newimage {
+   max-width: 500px;
+   display: block;
+   margin: 0 auto;
+   box-shadow: 2px 2px 2px lightblue;
+   opacity: 0.1;
+}
+.third__newimage:hover {
+   opacity: 1;
+}
+.third__container {
+   max-width: 800px;
+   margin: 0 auto;
+}
+.third__forimg:hover {
+   color: yellow;
+}
